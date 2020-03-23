@@ -3,10 +3,17 @@
     background-color: #FCF7F8;
 }
 
-
-.main {
-    padding: 0px 10px;
+.left-text {
+    text-align: center;
+    margin-top: 20%;
+    padding: 60px;
 }
+
+.left-text h2{
+    font-weight: 300;
+}
+
+
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -43,15 +50,3 @@
         margin-top: 20%;
     }
 }
-
-
-.login-main-text{
-    margin-top: 20%;
-    padding: 60px;
-    color: #fff;
-}
-
-.login-main-text h2{
-    font-weight: 300;
-}
-
