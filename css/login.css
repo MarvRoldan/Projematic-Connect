@@ -1,52 +1,53 @@
 .sidenav {
     height: 100%;
     background-color: #FCF7F8;
+    overflow: hidden;
 }
 
 .left-text {
-    text-align: center;
-    margin-top: 20%;
     padding: 60px;
 }
 
-.left-text h2{
-    font-weight: 300;
+.left-text h2 {
+    font-size: 2em;
+    font-weight: 900;
+    color: #17255A;
 }
-
-
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-}
-
-@media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
-
-    .register-form{
-        margin-top: 10%;
+    .sidenav {
+        padding-top: 15px;
     }
 }
 
-@media screen and (min-width: 768px){
-    .main{
-        margin-left: 40%; 
+@media screen and (max-width: 500px) {
+    .login-form {
+        margin-top: 10%;
     }
+    .register-form {
+        margin-top: 10%;
+    }
+}
 
-    .sidenav{
+@media screen and (min-width: 1024px) {
+    .main {
+        margin-left: 40%;
+    }
+    .sidenav {
         width: 40%;
         position: fixed;
         z-index: 1;
         top: 0;
         left: 0;
     }
-
-    .login-form{
+    .left-text {
+        margin-top: 45%;
+        padding: 80px;
+    }
+    .login-form {
         margin-top: 80%;
     }
-
-    .register-form{
+    .register-form {
         margin-top: 20%;
     }
 }
