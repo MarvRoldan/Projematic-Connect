@@ -22,6 +22,21 @@
     align-items: center;
 }
 
+p {
+    text-align: left;
+}
+
+.form-group input, button {
+    border-radius: 12px;
+    width: 150%;
+}
+
+.button {
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 6px;
+}
+
 @media screen and (min-width: 768px) {
     .left, .right {
         height: 100vh;
