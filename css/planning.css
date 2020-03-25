@@ -23,10 +23,13 @@
     margin-left: 15em;
 }
 
-#row-six {
-    margin-top: 50px;
+#row-five,
+#row-six,
+#row-seven {
+    margin-top: 30px;
 }
 
-#example {
-    margin-left: 381px;
+#example,
+#example2 {
+    margin-left: 380px;
 }
