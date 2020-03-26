@@ -1,9 +1,37 @@
-.nav {
-    background-color: #003399;
+* {
+    font-family: Tahoma, Georgia, serif;
 }
 
-.nav-link {
-    color: #FCF7F8;
+.navbar-brand img {
+    height: 1.7rem;
+    padding-right: 27rem;
+}
+
+.navbar {
+    font-weight: 650;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+  
+.navbar-toggler {
+    background-color: rgb(188, 220, 229);
+}
+
+.navbar-nav li {
+    padding-right: .5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    padding-top: 1rem;
+    transition: all .4s ease;
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 230, 230);
 }
 
 .jumbotron {
@@ -12,8 +40,32 @@
     text-align: center;
 }
 
+.display-2 {
+    margin-top: 80px;
+    color: #003399;
+    text-shadow: -1px 0 #FCF7F8, 0 1px #FCF7F8, 1px 0 #FCF7F8, 0 -1px #FCF7F8;
+}
 
 .card {
     border: none;
     width: 15rem;
+}
+
+.card {
+    border: none;
+    width: 15rem;
+}
+
+.card-img-top {
+    cursor: pointer;
+}
+
+.img-fluid {
+    margin-top: 1em;
+    height: 10em;
+    width: 50rem;
+}
+
+#box-position-initiation {
+    margin-top: 30px;
 }

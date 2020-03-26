@@ -1,217 +1,241 @@
 <!doctype html>
 <html lang="en">
-    <head>
-      <!--Class-->
-    <!-- Required meta tags -Instractor -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title>Closing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Vendor Styles: Instractor -->
-        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
-        <!--Personal style-->
-        
-        <!-- Vendor Scripts: Instractor-->
-        <script type="text/javascript" src="./vendor/jquery/js/jquery.min.js"></script>
-        <script type="text/javascript" src="./vendor/bootstrap/js/bootstrap.min.js"></script>
-    
-        <!--  Style(s) -->
-        <link rel="stylesheet" href="./css/closing.css">
-    
-    
-        <!--  Script(s) -->
-    <script type="text/javascript" src="./js/closing.js" defer></script>
+    <!-- Vendor Styles -->
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
 
-        <!--  Boostrap materials -->
-    
-    <title>CLOSING</title>
+    <!-- Vendor Scripts -->
+    <script type="text/javascript" src="./vendor/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    </head>
+    <!-- Style(s) -->
+    <link rel="stylesheet" href="./css/closing.css"> 
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- Script(s) -->
+    <script type="text/javascript" src="./js/planning.js"></script>
+</head>
     <body>
-        <ul class="nav justify-content-end">
+      
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #117bc7;">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Linkedin</a>
+              <a class="nav-link" href="./main.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
-        </ul>
-        <div class="jumbotron umbotron-fluid" id="jumbo">
-            <div class="container" >
-              <h1 class="display-3">CLOSING</h1>
-            </div>
+                <a class="nav-link" href="./phase1-2.html">Pre-Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./phase1-2.html">Initiation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./planning.html">Planning</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./execution.html">Execution</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./closing.html">Closing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="">Contact</a>
+              </li>
+          </ul>
+          
         </div>
-            <br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/c1.png" class="card-img-top" alt="Card image cap"
-                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    </div>
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      </nav>
+
+      <div class="jumbotron jumbotron-fluid" id="jumbo">
+        
+              <h3 class="display-2">Closing</h3>
+            
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col" id="box-position-pre-project">
+                <div class="card">
+                    <img class="card-img-top" src="./img/Closing/closing1.png" alt="Final Project Report" class="btn btn-primary" data-toggle="modal" data-target="#scopeModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="scopeModal" tabindex="-1" role="dialog" aria-labelledby="scopeModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Download Template</button>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Final Project Report</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Template</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/c2.png" class="card-img-top" alt="Card image cap"
-                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    </div>
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          </div>
+
+          <div class="row">
+            <div class="col" id="box-position-initiation"> 
+                <div class="card">
+                    <img class="card-img-top" src="./img/Closing/closing2.png" alt="Satisfaction Assessment" class="btn btn-primary" data-toggle="modal" data-target="#scopeModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="scopeModal" tabindex="-1" role="dialog" aria-labelledby="scopeModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Download Template</button>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Satisfaction Assessment</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Template</button>
+                                </div>
                             </div>
                         </div>
-                    </div>>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/c3.png" class="card-img-top" alt="Card image cap"
-                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    </div>
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+          </div>
+
+          <div class="row">
+            <div class="col" id="box-position-initiation"> 
+                <div class="card">
+                    <img class="card-img-top" src="./img/Closing/closing3.png" alt="Lessons Learned" class="btn btn-primary" data-toggle="modal" data-target="#scopeModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="scopeModal" tabindex="-1" role="dialog" aria-labelledby="scopeModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Download Template</button>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Lessons Learned</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Template</button>
+                                </div>
                             </div>
                         </div>
-                    </div>>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/c4.png" class="card-img-top" alt="Card image cap"
-                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    </div>
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+          </div>
+
+          <div class="row">
+            <div class="col" id="box-position-initiation"> 
+                <div class="card">
+                    <img class="card-img-top" src="./img/Closing/c4.png" alt="Implement Project Deliverables to Organization" class="btn btn-primary" data-toggle="modal" data-target="#scopeModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="scopeModal" tabindex="-1" role="dialog" aria-labelledby="scopeModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Download Template</button>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Implement Project Deliverables to Organization</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Template</button>
+                                </div>
                             </div>
                         </div>
-                    </div>>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/c5.png" class="card-img-top" alt="Card image cap"
-                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    </div>
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+          </div>
+
+          <div class="row">
+            <div class="col" id="box-position-initiation"> 
+                <div class="card">
+                    <img class="card-img-top" src="./img/Closing/c5.png" alt="Reallocate Resources" class="btn btn-primary" data-toggle="modal" data-target="#scopeModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="scopeModal" tabindex="-1" role="dialog" aria-labelledby="scopeModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Download Template</button>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Reallocate Resources</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Template</button>
+                                </div>
                             </div>
                         </div>
-                    </div>>
+                    </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./img/c6.png" class="card-img-top" alt="Card image cap"
-                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    </div>
-                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+          </div>
+
+          <div class="row">
+            <div class="col" id="box-position-initiation"> 
+                <div class="card">
+                    <img class="card-img-top" src="./img/Closing/c6.png" alt="Close Procurement Contracts" class="btn btn-primary" data-toggle="modal" data-target="#scopeModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="scopeModal" tabindex="-1" role="dialog" aria-labelledby="scopeModalCenterTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                              <button type="button" class="btn btn-primary">Download Template</button>
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Close Procurement Contracts</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Template</button>
+                                </div>
                             </div>
                         </div>
-                    </div>>
+                    </div>
                 </div>
             </div>
+
+          </div>
+
         </div>
-    </body>     
-</html>
+
+
+
+  
+        
+        
