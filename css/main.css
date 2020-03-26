@@ -1,10 +1,8 @@
-
-
-/* navigation */
 .navbar-brand img {
   height: 1.7rem;
   padding-right: 27rem;
 }
+
 .navbar {
   font-weight: 650;
   letter-spacing: .2rem;
@@ -16,18 +14,22 @@
 .navbar-toggler {
   background-color: rgb(188, 220, 229);
 }
+
 .navbar-nav li {
   padding-right: .5rem;
 }
+
 .navbar-nav .nav-item .nav-link {
   color: white;
   padding-top: 1rem;
   transition: all .4s ease;
 }
+
 .navbar-nav .nav-item .nav-link.active,
 .navbar-nav .nav-item .nav-link:hover {
   color: rgb(0, 230, 230);
 }
+
 .landing {
   position: relative;
   width: 100%;
@@ -35,6 +37,7 @@
   display: table;
   z-index: -1;
 }
+
 .home-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
