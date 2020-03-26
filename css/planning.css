@@ -7,9 +7,9 @@
 }
 
 .card {
-    border: none;
+    border: 1px solid black;
     width: 15rem;
-} 
+}
 
 .img-fluid {
     margin-top: 1em;
