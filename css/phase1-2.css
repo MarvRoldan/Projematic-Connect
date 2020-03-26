@@ -80,3 +80,26 @@
     height: 10em;
     width: 50rem;
 }
+
+#box-position-initiation {
+    margin-left: 645px;
+    margin-top: 30px;
+}
+
+#box-blue-position-initiation {
+    margin-left: 645px;
+    
+}
+#box-position-pre-project {
+    margin-left: 150px;
+    margin-top: 30px;    
+}
+#box-Stakeholder-Initiation {
+    margin-left: 760px;
+    
+}
+.jumbotron-phase1-2 {
+    min-height: 300px;
+    background-image: url("../img/Planning/planning-hero.png");
+    
+}
