@@ -1,3 +1,7 @@
+* {
+    font-family: Tahoma, Georgia, serif;
+}
+
 .nav {
     background-color: #003399;
 }
@@ -6,9 +10,37 @@
     color: #FCF7F8;
 }
 
+.jumbotron {
+    min-height: 300px;
+    background-image: url("../img/Planning/planning-hero.png");
+    text-align: center;
+}
+
+
+
+/*.jumbotron h1 {
+    color: #FCF7F8;
+}*/
+
+#row-five,
+#row-six,
+#row-seven {
+    margin-top: 30px;
+}
+
+#require,
+#test {
+    margin-left: 380px;
+}
+
 .card {
+    border: none;
     width: 15rem;
-} 
+}
+
+.card-img-top {
+    cursor: pointer;
+}
 
 .img-fluid {
     margin-top: 1em;
@@ -18,7 +50,7 @@
 
 .baseline {
     font-size: x-large;
-    margin-top: 1em;
+    margin-top: 0.5em;
     margin-bottom: 1em;
     margin-left: 15em;
 }
