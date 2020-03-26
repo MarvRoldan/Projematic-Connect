@@ -22,24 +22,76 @@
 </head>
 
 <body>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #117bc7;">
+        <a class="navbar-brand" href="#"><img src="./img/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./phase1-2.html">Pre-Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Initiation">Initiation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Planning">Planning</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Execution">Execution</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Closing">Closing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Login">Login</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+          </ul>
+          
+        </div>
+      </nav>
     <div class="jumbotron umbotron-fluid" id="jumbo">
         <div class="container" >
           <h1 class="display-3">Planning</h1>
-          <P class="lead">Project Management Plan</P>
         </div>
       </div>
-    <div class="container">
+    <div class="container" id="contain-one">
+        <div class="row">
+            <div class="col">
+                <div class="card" id="pmp">
+                    <img class="card-img-top" src="./img/Planning/top-pmp.png" alt="PMP Card" class="btn btn-primary" data-toggle="modal" data-target="#pmpModal" data-toggle="tooltip" data-placement="top" title="Click for more detail">
+                    <div class="top-center"></div>
+                    <div class="modal fade" id="pmpModal" tabindex="-1" role="dialog" aria-labelledby="pmpModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Project Management Page</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet, diam ornare congue pulvinar, mauris urna rhoncus urna, et facilisis sem ex eu metus.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary">Download Templates</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contain-two">
         <div class="row">
             <div class="col">
                 <div class="card">
@@ -233,7 +285,7 @@
         <img src="./img/bracket-vector-1.png" class="img-fluid" alt="Horizontal curly brace">
         <h2 class="baseline">Baseline</h2>
     </div>
-    <div class="container">
+    <div class="container" id="contain-three">
         <div class="row">
             <div class="col">
                 <div class="card">
@@ -354,7 +406,7 @@
             </div>
         </div>
     </div>
-    <div class="container" id="row-five">
+    <div class="container" id="contain-four">
         <div class="row">
             <div class="col">
                 <div class="card">
@@ -475,7 +527,7 @@
             </div>
         </div>
     </div>
-    <div class="container" id="row-six">
+    <div class="container" id="contain-five">
         <div class="row">
             <div class="col" id="test">
                 <div class="card">
@@ -502,7 +554,7 @@
             </div>
         </div>
     </div>
-    <div class="container" id="row-seven">
+    <div class="container" id="contain-six">
         <div class="row">
             <div class="col-8">
                 <div class="card">
