@@ -35,13 +35,13 @@
 }
 
 .jumbotron {
-    min-height: 300px;
+    min-height: 350px;
     background-image: url("../img/Planning/planning-hero.png");
     text-align: center;
 }
 
 .display-2 {
-    margin-top: 46px;
+    margin-top: 80px;
     color: #003399;
     text-shadow: -1px 0 #FCF7F8, 0 1px #FCF7F8, 1px 0 #FCF7F8, 0 -1px #FCF7F8;
 }
