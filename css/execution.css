@@ -6,19 +6,14 @@
     color: #FCF7F8;
 }
 
-.card {
-    width: 15rem;
-} 
-
-.img-fluid {
-    margin-top: 1em;
-    height: 10em;
-    width: 50rem;
+.jumbotron {
+    min-height: 300px;
+    background-image: url("../img/Planning/planning-hero.png");
+    text-align: center;
 }
 
-.baseline {
-    font-size: x-large;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 15em;
+
+.card {
+    border: none;
+    width: 15rem;
 }
