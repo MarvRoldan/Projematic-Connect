@@ -26,6 +26,10 @@
     width: 15rem;
 }
 
+.card-img-top {
+    cursor: pointer;
+}
+
 .img-fluid {
     margin-top: 1em;
     height: 10em;
