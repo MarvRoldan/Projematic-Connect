@@ -43,6 +43,7 @@
 .display-2 {
     margin-top: 46px;
     color: #003399;
+    text-shadow: -1px 0 #FCF7F8, 0 1px #FCF7F8, 1px 0 #FCF7F8, 0 -1px #FCF7F8;
 }
 
 #contain-one {
