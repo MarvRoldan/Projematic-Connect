@@ -6,8 +6,19 @@
     color: #FCF7F8;
 }
 
+#row-five,
+#row-six,
+#row-seven {
+    margin-top: 30px;
+}
+
+#example,
+#example2 {
+    margin-left: 380px;
+}
+
 .card {
-    border: 1px solid black;
+    border: none;
     width: 15rem;
 }
 
@@ -22,15 +33,4 @@
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 15em;
-}
-
-#row-five,
-#row-six,
-#row-seven {
-    margin-top: 30px;
-}
-
-#example,
-#example2 {
-    margin-left: 380px;
 }
